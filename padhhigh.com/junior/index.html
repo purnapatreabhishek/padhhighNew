@@ -1,0 +1,1540 @@
+<!doctype html>
+<html lang="zxx">
+
+
+
+
+<!-- Mirrored from padhhigh.com/junior/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 May 2021 06:59:41 GMT -->
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta property="og:image" content="../padhhigh.html">
+    <meta property="og:url" content="https://padhhigh.com/">
+    <script src="../../www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+	<script src="../../www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+    <meta name="facebook-domain-verification" content="sc1qdrz1jejykwwnfhw4n36hy9wonj" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../../stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Owl Theme Default CSS -->
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<!-- Owl Magnific CSS -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Boxicons CSS -->
+	<link rel="stylesheet" href="assets/css/boxicons.min.css">
+	<!-- Flaticon CSS -->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<!-- Meanmenu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<!-- Odometer CSS-->
+	<link rel="stylesheet" href="assets/css/odometer.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+    	<link rel="stylesheet" href="assets/css/otp.css">
+	
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<!-- Title -->
+	<title>पढ़HIGH </title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165126546-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-165126546-1');
+	</script>
+	
+    
+    
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  '../../connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3137812286342160');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3137812286342160&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5eb6ec2a8ee2956d739f96ee/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+
+
+</head>
+    	<!-- End Preloader Area -->
+	<div class="backdrop1">
+		<div class="popup">
+			<span>&#x1f6c8; OTP SENT TO YOUR NUMBER</span>
+			<form>
+				<input placeholder="Enter 6 Digit OTP" type="number" class="otp">
+				<div id="otp">
+					<span style="visibility:hidden;">testing testing</span>
+				</div>
+				<button onclick="verifyOtp(event)">VERIFY</button>
+			</form>
+		</div>
+	</div>
+<body>
+	<!-- Start Preloader Area -->
+	<div class="loader-wrapper">
+		<div class="loader">
+			<div class="dot-wrap">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="navbar-area navbar-area-two">
+	
+		<div class="mobile-nav">
+			<a href="index.html" class="logo">
+				<img src="assets/img/logo.png" alt="Logo">
+			</a>
+		</div>
+
+		<div class="main-nav">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-md">
+					<a class="navbar-brand" href="index.html">
+
+						<img src="assets/img/logo.png" alt="Logo">
+					</a>
+
+					<div class="collapse navbar-collapse mean-menu">
+						<ul class="navbar-nav m-auto">
+							<li class="nav-item">
+								<a href="#" class="nav-link active">
+									Home
+
+								</a>
+
+
+							</li>
+
+							<li class="nav-item">
+								<a href="index2.html" class="nav-link">
+									QUIQ
+
+								</a>
+
+
+							</li>
+
+
+							</li>
+
+							<li class="nav-item">
+								<a href="#why" class="nav-link">
+									WHY PADHHIGH ?
+
+								</a>
+
+
+							</li>
+
+							<li class="nav-item">
+								<a href="#contact" class="nav-link">
+									FREE DEMO
+
+								</a>
+
+
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link">
+									About
+
+								</a>
+
+
+							</li>
+							<li class="nav-item">
+								<a href="policy.html" class="nav-link ">
+									Policy
+
+								</a>
+
+
+							</li>
+
+							<li class="nav-item">
+								<a href="contact.html" class="nav-link">Contact</a>
+							</li>
+						</ul>
+
+					
+						<div class="others-option">
+							<div class="option-item">
+								<i class="search-btn bx bx-search"></i>
+								<i class="close-btn bx bx-x"></i>
+
+								<div class="search-overlay search-popup">
+									<div class='search-box'>
+										<form class="search-form">
+											<input class="search-input" name="search" placeholder="Search" type="text">
+
+											<button class="search-button" type="submit"><i
+													class="bx bx-search"></i></button>
+										</form>
+									</div>
+								</div>
+							</div>
+
+
+
+
+						</div>
+			
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		
+	</div> 
+
+
+
+
+
+	<section class="banner-area-two">
+		<div class="d-table">
+			<div class="d-table-cell">
+				<div class="container-fluid social">
+					<div class="row align-items-center">
+						<div class="col-lg-7">
+							<div class="banner-content">
+								<h1 class="wow fadeInLeft" data-wow-delay="0.3s"> No More पढ़LOW <br>Do पढ़HIGH </h1>
+								<p class="wow fadeInLeft" data-wow-delay="0.6s"> Don't Memorize , Understand Concepts
+								</p>
+
+								<a href="index2.html" class="default-btn wow fadeInLeft" data-wow-delay="0.9s">
+									Know More
+								</a>
+							</div>
+						</div>
+
+						<div class="col-lg-5">
+							<div class="banner-img wow fadeInRight" data-wow-delay="0.3s">
+								<img src="assets/img/banner-img/banner-img-2.png" alt="Image">
+
+								<div class="banner-shape-1">
+									<img src="assets/img/banner-img/shape-img-1.png" alt="Image">
+								</div>
+								<div class="banner-shape-2">
+									<img src="assets/img/banner-img/shape-img-2.png" alt="Image">
+								</div>
+								<div class="banner-shape-3">
+									<img src="assets/img/banner-img/shape-img-3.png" alt="Image">
+								</div>
+								<div class="banner-shape-4">
+									<img src="assets/img/banner-img/shape-img-4.png" alt="Image">
+								</div>
+								<div class="banner-shape-5 rotated">
+									<img src="assets/img/banner-img/shape-img-5.png" alt="Image">
+								</div>
+								<div class="banner-shape-6">
+									<img src="assets/img/banner-img/shape-img-6.png" alt="Image">
+								</div>
+								<div class="banner-shape-7 rotated">
+									<img src="assets/img/banner-img/shape-img-7.png" alt="Image">
+								</div>
+								<div class="banner-shape-8">
+									<img src="assets/img/banner-img/shape-img-8.png" alt="Image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<center><img src="102.png" class="img-min"></center>
+
+
+
+		<section class="education-area-two ptb-100" id="why">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="education-content">
+						<span class="top-title"></span>
+						<h2>Kyu  IQ - <span>QUIQ ?</span></h2>
+						<p>  </p>
+						<p></p>
+
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										Lack of Personal Guidance. 
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										Slow in calculations.
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										Focused in theoretical learning. 
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										Unaware about conceptual learning.
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										Just Memorizing to get marks & move on.
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										Don't Relate Mathematics with Life.
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										21st Century, need knowledgeful youth over book worms.
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										Writing by understanding is almost negligible.
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- <a href="index2.html" class="default-btn">
+							View All Courses
+						</a> -->
+					</div>
+				</div>
+
+				<!-- <div class="col-lg-6">
+					<div class="education-img-wrap">
+						<div class="education-img-2">
+							<img src="assets/img/education-img-2.jpg" alt="Image">
+						</div>
+
+						<div class="education-img-3">
+							<img src="assets/img/education-img-3.jpg" alt="Image">
+						</div>
+
+						<div class="education-img-4">
+							<img src="assets/img/education-img-4.jpg" alt="Image">
+						</div>
+
+						<div class="education-shape-1">
+							<img src="assets/img/education-shape-1.jpg" alt="Image">
+						</div>
+
+						<div class="education-shape-2">
+							<img src="assets/img/education-shape-2.png" alt="Image">
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+
+<br><br>
+<center>	<img src="visison.jpg" class="img-min"></center>
+	
+	<section class="affordable-area pt-100 pb-70" style="padding-top: 30px;">
+		<div class="container">
+			<div class="section-title">
+				<span><b>Aim HIGH with QUIQ UNDERSTANDING</b></span>
+				<h2>YOUR BENEFITS WITH PADH HIGH </h2>
+				<img src="assets/img/section-title-shape.png" alt="Image">
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-affordable one">
+						<i class="flaticon-investment"></i>
+
+						<h3>Save time & money</h3>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-affordable two">
+						<i class="flaticon-balance"></i>
+
+						<h3>Balanced LEARNING</h3>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-affordable three">
+						<i class="flaticon-online-education"></i>
+
+						<h3>Conceptual Knowledge</h3>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-affordable four">
+						<i class="flaticon-route"></i>
+
+						<h3> Curiosity to Finish Fast</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Affordable Area -->
+	<!-- Start Achieve Area -->
+	<section class="achieve-area f5f6fa-bg-color pt-100 pb-70">
+		<div class="container">
+			<div class="section-title">
+				<span></span>
+				<h2></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-achieve">
+						<div class="achieve-shape shape-1">
+							<img src="assets/img/achieve-shape/achieve-shape-1.png" alt="Image">
+							<i class="flaticon-skills"></i>
+						</div>
+
+						<h3> Real life SKILLS </h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-achieve">
+						<div class="achieve-shape shape-2">
+							<img src="assets/img/achieve-shape/achieve-shape-2.png" alt="Image">
+							<i class="flaticon-career"></i>
+						</div>
+
+						<h3> Prepare for Tomorrow</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-achieve">
+						<div class="achieve-shape shape-3">
+							<img src="assets/img/achieve-shape/achieve-shape-3.png" alt="Image">
+							<i class="flaticon-certificate"></i>
+						</div>
+
+						<h3> Hand-Picked CONTENT</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-achieve">
+						<div class="achieve-shape shape-4">
+							<img src="assets/img/achieve-shape/achieve-shape-4.png" alt="Image">
+							<i class="flaticon-group"></i>
+						</div>
+
+						<h3> VEDIC MATHS TRICKS </h3>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Achieve Area -->
+	<div class="text4">
+		<h1 class="line-1 anim-typewriter" style="font-weight: 700;" >What learners say</h1>
+	  </div><br>
+	<div id="slider">
+		<input type="radio" name="slider" id="slide1" checked>
+		<input type="radio" name="slider" id="slide2">
+		<input type="radio" name="slider" id="slide3">
+		<input type="radio" name="slider" id="slide4">
+	  
+		<div id="slides" style="font-family: 'basic-first';">
+		   <div id="overflow">
+			  <div class="inner">
+				 <div class="slide slide_1">
+					<div class="slide-content">
+					 
+					   
+						
+						<p class="text2">PADHHIGH gave me the perfect solution for my child learning with concept clearance.
+
+</p>
+						<p style="color: #FFB100;"><b>Nita Jain </b><br> <span>(A Happy Mom)</span></p>
+					</div>
+				 </div>
+				 
+				 <div class="slide slide_2">
+					<div class="slide-content">
+					 
+					  <p class="text2">I started PADHHIGH. And, now, I’m learning, and learning, and learning…visualized video are
+engaging & Interactive.</p>
+						
+	
+						<p style="color: #FFB100;"><b>Ajay Gupta </b><br> <span>Vidya Bharati School</span></p>
+					   
+					</div>
+				 </div>
+
+				 <div class="slide slide_3">
+					<div class="slide-content">
+					  
+					
+					   <p class="text2">“They're not just teaching but also ensuring that each student is learning properly. Really
+recommendable
+</p>
+						<p style="color: #FFB100;"><b>Rajesh Yadav</b><br> <span>(The Best Dad)</span></p>
+					</div>
+				 </div>
+
+				 <div class="slide slide_4">
+					<div class="slide-content">
+					  
+					 
+					   <p class="text2">The videos had excellent picture quality and audio. They were short and informative.<br>
+						Thank you so much. PADHHIGH</p>
+						<p style="color: #FFB100;"><b>Pankaj Yadav</b><br> <span>Kendriya Vidyalaya</span></p>
+					</div>
+					
+				 </div>
+				 
+			   
+				
+				 
+				 
+
+			  </div>
+		   </div>
+		</div>
+		<div id="controls">
+		   <label for="slide1"></label>
+		   <label for="slide2"></label>
+		   <label for="slide3"></label>
+		   <label for="slide4"></label>
+		 
+		</div>
+		<div id="bullets">
+		   <label for="slide1"></label>
+		   <label for="slide2"></label>
+		   <label for="slide3"></label>
+		   <label for="slide4"></label>
+		 
+		</div>
+	 </div>
+	  <br><br>
+    
+    <div class="divider-titles">
+		<center>	<span>CLASSES</span></center>
+	  </div>
+	  <center>
+		<img src="apply/class.png" class="classes"> 
+		<br>
+	  
+	  </center>
+	   
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+	<!-- Start Banner Area -->
+	<section class="banner-area-three jarallax" data-jarallax='{"speed": 0.3}' id="contact">
+		<div class="d-table">
+			<div class="d-table-cell">
+				<div class="container-fluid social">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<div class="banner-content">
+								<h1 class="wow fadeInLeft" data-wow-delay="0.3s">GET 100% FREE DEMO</h1>
+								<p class="wow fadeInLeft" data-wow-delay="0.6s">● QUIQ UNDERSTANDING</p>
+								<p class="wow fadeInLeft" data-wow-delay="0.6s">● CBSE 6-7-8-9-10 , LEARN MATHS ,
+									SCIENCE , VEDIC MATHS with conceptual video LEARNING - must for every student.</p>
+
+
+								<a href="index.html" class="default-btn wow fadeInLeft" data-wow-delay="0.9s">
+									Learn More
+								</a>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="enroll-wrap wow fadeInRight" data-wow-delay="0.3s">
+								<div class="courses-title">
+									<span>Give a Try </span>
+									<h3>Get FREE DEMO</h3>
+								</div>
+
+								<form class="courses-form" id="home">
+									
+									<div id="recaptcha"></div>
+									
+									<div id="notify"></div>
+
+									<div class="form-group">
+										<input type="text" class="form-control" name="student" placeholder="Student name"
+											required>
+									</div>
+
+									<div class="form-group">
+										<input type="text" class="form-control" name="parent" placeholder="Parent Name"
+											required>
+									</div>
+
+									<div class="form-group">
+
+
+										<select id="select-class" name="course">
+											<option value="select">Select Class</option>
+											<option value="6">6th</option>
+											<option value="7">7th</option>
+											<option value="8">8th</option>
+											<option value="9">9th</option>
+											<option value="10">10th</option>
+										</select>
+
+
+									</div>
+
+									<div class="form-group">
+										<input type="number" class="form-control" name="contact"
+											placeholder="Phone Number" required>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" name="email" placeholder="Email"
+											required>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="city"
+											placeholder=" School Name with City" required>
+									</div>
+
+								
+
+									<button type="submit" class="default-btn">
+										Apply
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+					
+	<!-- End Banner Area -->
+
+
+	<!-- End Categories Area -->
+	<!-- <section class="categories-area ptb-100">
+		<div class="container">
+			<div class="section-title">
+				<span>CLASSES </span>
+				<h2> CBSE SYLLABUS</h2>
+				<img src="assets/img/section-title-shape.png" alt="Image">
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2 col-sm-6">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-1.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> 6TH </h3>
+								</a>
+								<span>MATHS , SCIENCE conceptual</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-2.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> 7TH</h3>
+								</a>
+								<span>MATHS , SCIENCE conceptual</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-3.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> 8TH</h3>
+								</a>
+								<span>MATHS , SCIENCE conceptual</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-4.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> 9TH</h3>
+								</a>
+								<span>MATHS , SCIENCE conceptual</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-5.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> 10TH</h3>
+								</a>
+								<span>MATHS , SCIENCE conceptual</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6 last">
+					<div class="single-categories">
+						<img src="assets/img/categories-img/categories-img-6.jpg" alt="Image">
+
+						<div class="categories-content-wrap">
+							<div class="categories-content">
+								<a href="index2.html">
+									<h3> CLASSES</h3>
+								</a>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+				<div class="col-12">
+					<div class="text-center">
+						<a href="index2.html" class="default-btn">Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End Categories Area -->
+	<center>
+		<h2><br><br>QUIQ <span class="padh">UNDERSTANDING</span></h2>
+	</center>
+	<br>
+	<!-- Start Feature Area -->
+	<section class="feature-area">
+		<div class="container">
+			<div class="feature-wrap">
+				<div class="row m-0">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-feature">
+							<i class="flaticon-online"></i>
+							<h3>LEARN ANYTIME , ANYWHERE</h3>
+							<p> Watch videos anytime when you would like to study with complete flexibility with no
+								limits to watch</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-feature">
+							<i class="flaticon-expert"></i>
+							<h3>VISUAL UNDERSTANDING</h3>
+							<p>Videos is fastest way to understand anything , young students can learn QUIQly with
+								conceptual videos</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+						<div class="single-feature">
+							<i class="flaticon-online-class"></i>
+							<h3>VEDIC MATHS </h3>
+							<p>Do Maths Rapidly in your network, have a great position in front of crowd & Be Different
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Feature Area -->
+
+	<!-- Start Feedback Area -->
+	<section class="feedback-area ptb-100">
+		<div class="container">
+			<div class="section-title">
+				<span>Feedback</span>
+				<h2>What students say</h2>
+				<img src="assets/img/section-title-shape.png" alt="Image">
+			</div>
+
+			<div class="feedback-slider owl-theme owl-carousel">
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>This was a very immersive and exciting course, and PADHHIGH helped me a lot. I enjoyed this
+						course sooooooooo much. Maybe I took the curriculum too seriously and put much effort into them,
+						but that only shows how engaging this course is. </p>
+
+					<div class="feedback-title">
+
+						<h3>Navya Goel</h3>
+						<span> Delhi Public School</span>
+					</div>
+				</div>
+
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>The videos had excellent picture quality and audio. They were short and informative.
+						Thank you so much. PADHHIGH</p>
+
+					<div class="feedback-title">
+
+						<h3>Pankaj Yadav</h3>
+						<span>Kendriya Vidyalaya</span>
+					</div>
+				</div>
+
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>I must say it's to the point and, honestly, an excellent supplement for competitive exams. You
+						don't need more than what's already in there. </p>
+
+					<div class="feedback-title">
+
+						<h3>Riya Saini </h3>
+						<span>The City Montessori School</span>
+					</div>
+				</div>
+
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>I enjoyed the QUIQ Program. These short informative videos enhanced my learning experience and
+						kept me from being bored. They are structured and in sequence to what was required in the
+						curriculum. </p>
+
+					<div class="feedback-title">
+
+						<h3>Gaurav Meena </h3>
+						<span>St Xavier's High School</span>
+					</div>
+				</div>
+
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>It can be reviewed until the concept is clear. I Recommend this QUIQ course to anyone that needs
+						to engage in online learning. </p>
+
+					<div class="feedback-title">
+
+						<h3>Ajay Gupta </h3>
+						<span>Vidya Bharati School</span>
+					</div>
+				</div>
+
+				<div class="feedback-item">
+					<i class="flaticon-quotation"></i>
+					<p>A wonderful, short and to the point insight into the world of Vedic Mathematics for a complete
+						beginner. With short videos containing good and easy examples of science & maths. </p>
+
+					<div class="feedback-title">
+
+						<h3>Rahul Arora </h3>
+						<span>St Francis De Sales High School</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="feedback-shape-1">
+			<img src="assets/img/feedback-img/feedback-shape-1.png" alt="Image">
+		</div>
+		<div class="feedback-shape-2">
+			<img src="assets/img/feedback-img/feedback-shape-2.png" alt="Image">
+		</div>
+	</section>
+	<!-- End Feedback Area -->
+
+
+
+	<!-- Start Tutor Area -->
+	<section class="tutor-area ptb-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
+		<div class="container">
+			<div class="section-title white-title">
+				<span>NEED A ONLINE TUTOR ALSO ?</span>
+				<h2>QUIQ TUTORING</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-tutor">
+						<i class="flaticon-instructor-1"></i>
+						<h3>
+							LIVE DISCUSSIONS </h3>
+						<p>We believe in Linking education with real life for long term learning with students
+							interaction</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-tutor">
+						<i class="flaticon-instructor"></i>
+						<h3> EXPERT TEACHER'S </h3>
+						<p><br>Our teacher's take your child responsibility like their own child with full care &
+							support</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-tutor">
+						<i class="flaticon-certificate-1"></i>
+						<h3> CONCEPTS REFLECTION </h3>
+						<p>We don't judge with Marks, we take reflection from student to get what student actually
+							learnt from the topic</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-tutor">
+						<i class="flaticon-consulting"></i>
+						<h3> Ultra Priority CALL/MESSAGES </h3>
+						<p>Student can reach the teacher anytime for any doubt clearance or help for all subject's with
+							proper guidance</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Tutor Area -->
+
+	<!-- Start Education Area -->
+	<section class="education-area-two ptb-100" id="why">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="education-content">
+						<span class="top-title">CONCEPTUAL EDUCATION FOR EVERYONE</span>
+						<h2>Still <span>Confused?</span> DON'T WORRY</h2>
+						<p> PADH HIGH Aim to provide quality & CONCEPTUAL education to maximum number of STUDENTS to
+							create a better Indian Ecosystem. </p>
+						<p>PADHHIGH QUIQ - brings affordable video based to watch anytime anywhere for 6-7-8-9-10th CBSE
+							STUDENTS. QUIQ TUTORING is also available for personalized learning.</p>
+
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										PAY ONCE ONLY
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										CONCEPTUAL learning
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-lg-6">
+								<ul>
+									<li>
+										<i class="bx bx-check"></i>
+										No transaction fees
+									</li>
+									<li>
+										<i class="bx bx-check"></i>
+										VEDIC MATHS
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- <a href="index2.html" class="default-btn">
+							View All Courses
+						</a> -->
+					</div>
+				</div>
+
+				<!-- <div class="col-lg-6">
+					<div class="education-img-wrap">
+						<div class="education-img-2">
+							<img src="assets/img/education-img-2.jpg" alt="Image">
+						</div>
+
+						<div class="education-img-3">
+							<img src="assets/img/education-img-3.jpg" alt="Image">
+						</div>
+
+						<div class="education-img-4">
+							<img src="assets/img/education-img-4.jpg" alt="Image">
+						</div>
+
+						<div class="education-shape-1">
+							<img src="assets/img/education-shape-1.jpg" alt="Image">
+						</div>
+
+						<div class="education-shape-2">
+							<img src="assets/img/education-shape-2.png" alt="Image">
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<!-- End Education Area -->
+
+	<!-- Start Counter Area -->
+	<section class="counter-area f5f6fa-bg-color ptb-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-counter">
+						<div class="counter-shape shape-1">
+							<img src="assets/img/counter-shape/counter-shape-1.png" alt="Image">
+
+							<h2>
+								<span class="odometer" data-count="100">00</span>
+								<span class="target">%</span>
+							</h2>
+						</div>
+
+						<p>SUCCESS RATE</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-counter">
+						<div class="counter-shape shape-2">
+							<img src="assets/img/counter-shape/counter-shape-2.png" alt="Image">
+
+							<h2>
+								<span class="odometer" data-count="2000">00</span>
+								+
+							</h2>
+						</div>
+
+						<p> Enrolled</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-counter">
+						<div class="counter-shape shape-3">
+							<img src="assets/img/counter-shape/counter-shape-3.png" alt="Image">
+
+							<h2>
+								<span class="odometer" data-count="200">00</span>
+								+
+							</h2>
+						</div>
+
+						<p>CREATORS</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6">
+					<div class="single-counter">
+						<div class="counter-shape shape-4">
+							<img src="assets/img/counter-shape/counter-shape-4.png" alt="Image">
+
+							<h2>
+								<span class="odometer" data-count="50000">00</span>
+							</h2>
+						</div>
+
+						<p>LEARNING HOURS</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Counter Area -->
+
+
+
+
+	<!-- Start Discover Area -->
+	<section class="discover-area  ptb-100" >
+		<div class="container">
+			<div class="row align-items-center" id="enroll">
+
+
+				<div class="col-lg-12">
+					<div class="discover-slider owl-theme owl-carousel">
+						<div class="single-course">
+							<a href="index2.html">
+								<img src="images/std%20names6.jpg" alt="Image">
+							</a>
+
+							<div class="course-content">
+								<span class="price">40%off </span>
+								<span class="tag">CBSE EDUCATION</span>
+
+								<a href="https://padhhigh.com/index2.html">
+									<h3>QUIQ QONCEPT</h3>
+									<h6>Quaterly</h6>
+								</a>
+
+								<ul class="rating">
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+								</ul>
+								<center>
+									<h6>QUIQ 6th Program</h6>
+								</center>
+								<center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
+								<ul class="lessons">
+									<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view" data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
+										<script>
+										  (function(){
+											var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+											if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+											s.src='../../cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+											rzp && rzp.init && rzp.init()}})();
+										</script>
+									  </div>
+								</ul>
+							</div>
+						</div>
+
+
+
+
+
+						<div class="single-course">
+							<a href="inex2.html">
+								<img src="images/std%20names7.jpg" alt="Image">
+							</a>
+
+							<div class="course-content">
+								<span class="price">40%off </span>
+								<span class="tag">CBSE EDUCATION</span>
+
+								<a href="https://padhhigh.com/index2.html">
+									<h3>QUIQ QONCEPT</h3>
+									<h6>Quaterly</h6>
+						
+								</a>
+
+								<ul class="rating">
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+
+								</ul>
+								<center>
+									<h6>QUIQ 7th Program</h6>
+								</center>
+								<center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
+								<ul class="lessons">
+									<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view" data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
+										<script>
+										  (function(){
+											var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+											if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+											s.src='../../cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+											rzp && rzp.init && rzp.init()}})();
+										</script>
+									  </div>
+
+
+								</ul>
+							</div>
+						</div>
+
+						<div class="single-course">
+							<a href="https://padhhigh.com/index2.html">
+								<img src="images/std%20names8.jpg" alt="Image">
+							</a>
+
+							<div class="course-content">
+								<span class="price">40%off </span>
+								<span class="tag">CBSE EDUCATION</span>
+
+								<a href="index2.html">
+									<h3>QUIQ QONCEPT</h3>
+									<h6>Quaterly</h6>
+								
+								</a>
+
+								<ul class="rating">
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+								</ul>
+								<center>
+									<h6>QUIQ 8th Program</h6>
+								</center>
+								<center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
+								<ul class="lessons">
+									<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view" data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
+										<script>
+										  (function(){
+											var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+											if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+											s.src='../../cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+											rzp && rzp.init && rzp.init()}})();
+										</script>
+									  </div>
+								</ul>
+							</div>
+						</div>
+
+						<div class="single-course">
+							<a href="https://padhhigh.com/index2.html">
+								<img src="images/std%20names9.jpg" alt="Image">
+							</a>
+
+							<div class="course-content">
+								<span class="price">40%off </span>
+								<span class="tag">CBSE EDUCATION</span>
+
+								<a href="index2.html">
+									<h3>QUIQ QONCEPT</h3>
+									<h6>Quaterly</h6>
+							
+								</a>
+
+								<ul class="rating">
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+								</ul>
+								<center>
+									<h6>QUIQ 9th Program</h6>
+								</center>
+								<center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
+								<ul class="lessons">
+									<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view" data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
+										<script>
+										  (function(){
+											var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+											if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+											s.src='../../cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+											rzp && rzp.init && rzp.init()}})();
+										</script>
+									  </div>
+								</ul>
+							</div>
+						</div>
+
+						<div class="single-course">
+							<a href="https://padhhigh.com/index2.html">
+								<img src="images/std%20names10.jpg" alt="Image">
+							</a>
+
+							<div class="course-content">
+								<span class="price">40%off </span>
+								<span class="tag">CBSE EDUCATION</span>
+
+								<a href="index2.html">
+									<h3>QUIQ QONCEPT</h3>
+									<h6>Quaterly</h6>
+							
+								</a>
+
+								<ul class="rating">
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+									<li>
+										<i class="bx bxs-star"></i>
+									</li>
+								</ul>
+								<center>
+									<h6>QUIQ 10th Program</h6>
+								</center>
+								<center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
+								<ul class="lessons">
+									<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view" data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
+										<script>
+										  (function(){
+											var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+											if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+											s.src='../../cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+											rzp && rzp.init && rzp.init()}})();
+										</script>
+									  </div>
+								</ul>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="discover-img">
+
+		</div>
+	</section>
+
+	<!-- Start Footer Bottom Area -->
+	<footer class="site-footer" style="text-align: center;">
+	
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<p class="copyright-text" style="color: #fff;">10th floor, Tower-B Unitech Cyber Park, Sector 39, Gurugram, Haryana 122003
+			
+             <br>
+            
+				</p>
+			  </div>
+			  <br>
+  
+			<div class="col-md-12 col-sm-12 col-xs-12"  >
+				<br>
+			  <ul >
+				<a  href="https://www.facebook.com/padhhigh"><img src="../../img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+				<a  href="https://twitter.com/padhhigh"><img src="../../img.icons8.com/fluent/48/000000/twitter.png"/></a>
+				<a  href="https://www.instagram.com/padhhigh/"><img src="../../img.icons8.com/fluent/48/000000/instagram-new.png"/>
+				<a  href="https://www.linkedin.com/company/padhhigh/"><img src="../../img.icons8.com/fluent/48/000000/linkedin.png"/></a>  
+			  </ul>
+			</div>
+
+
+
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<p class="copyright-text" style="color: #fff;">Copyright &copy; 2020 All Rights Reserved by 
+			 <a href="https://padhhigh.com/" style="color: #FFB607;">Padhhigh.com</a>
+             <br>
+				
+				</p>
+				<p class="copyright-text" style="color: #fff;">	 <a href="https://padhhigh.com/terms-and-conditions.html" style="color: #FFB607;">Terms and Service</a>
+					
+					
+						  
+					   </p>
+                       	<p class="copyright-text" style="color: #fff;">	 <a href="refund.html" style="color: #FFB607;">Refund Policy</a>
+					
+					<br>
+						  
+					   </p><br>
+			  </div>
+		  </div>
+		</div>
+  </footer>
+	<!-- End Footer Bottom Area -->
+
+	<!-- Start Go Top Area -->
+	<div class="go-top">
+		<i class='bx bx-chevrons-up'></i>
+		<i class='bx bx-chevrons-up'></i>
+	</div>
+	<!-- End Go Top Area -->
+	<!--Form js-->
+
+
+	<!-- Jquery-3.5.1.Slim.Min.JS -->
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Meanmenu JS -->
+	<script src="assets/js/jquery.meanmenu.js"></script>
+	<!-- Wow JS -->
+	<script src="assets/js/wow.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="assets/js/owl.carousel.js"></script>
+	<!-- Owl Magnific JS -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Nice Select JS -->
+	<script src="assets/js/jquery.nice-select.min.js"></script>
+	<!-- Parallax JS -->
+	<script src="assets/js/parallax.min.js"></script>
+	<!-- Appear JS -->
+	<script src="assets/js/jquery.appear.js"></script>
+	<!-- Odometer JS -->
+	<script src="assets/js/odometer.min.js"></script>
+	<!-- Form Validator JS -->
+	<script src="assets/js/form-validator.min.js"></script>
+	<!-- Contact JS -->
+	<script src="assets/js/contact-form-script.js"></script>
+	<!-- Ajaxchimp JS -->
+	<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/custom.js"></script>
+    
+    <!--otp-formjs-->
+	<script defer src="assets/customJs/otp.js"></script>
+	<script defer src="assets/customJs/contact-otp.js"></script>
+</body>
+
+<style>
+
+
+.img-min{
+width: 60%;
+
+}
+@media only screen and (max-width:480px) {
+	.img-min{
+width: 100%;
+
+}
+}
+@media only screen and (max-width:770px) {
+	.img-min{
+width: 100%;
+
+}
+}
+
+</style>
+
+
+<!-- Mirrored from padhhigh.com/junior/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 May 2021 07:02:08 GMT -->
+</html>

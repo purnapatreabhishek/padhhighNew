@@ -1,0 +1,44 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 May 2021 12:29:38 at https://padhhigh.com/junior/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://padhhigh.com/junior/index.html -O1 "C:\My Web Sites\padhhigh1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:32:08	Error: 	"Not Found" (404) at link https://padhhigh.com/padhhigh.png (from https://padhhigh.com/junior/index.html)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/inex2.html (from https://padhhigh.com/junior/index.html)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/feedback-img/feedback-bg.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/feedback-img/feedback-bg-2.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/news-img/news-img-2.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/news-img/news-img-3.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/news-img/news-img-4.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-1.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-2.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-3.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-4.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-5.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-6.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-7.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-8.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-9.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-10.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-11.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-12.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-13.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-14.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-15.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-16.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-17.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-18.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/page-bg/page-bg-19.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/single-blog/popular-img-1.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/single-blog/popular-img-2.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/assets/img/single-blog/popular-img-3.jpg (from https://padhhigh.com/junior/assets/css/style.css)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/c (from https://connect.facebook.net/en_US/fbevents.js)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/b (from https://connect.facebook.net/en_US/fbevents.js)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/POST (from https://connect.facebook.net/en_US/fbevents.js)
+12:33:29	Error: 	"Not Found" (404) at link https://padhhigh.com/junior/payment.js (from https://padhhigh.com/junior/index2.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 54 seconds : 138 links scanned, 104 files written (5123156 bytes overall) [3985081 bytes received at 17030 bytes/sec], 1772725 bytes transferred using HTTP compression in 46 files, ratio 29%, 1.0 requests per connection
+(33 errors, 0 warnings, 0 messages)
